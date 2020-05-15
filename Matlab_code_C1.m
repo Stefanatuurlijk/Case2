@@ -1,3 +1,5 @@
+%% BLABLABALALBALBLBJADJFOEWIENDOFLNDS
+
 %% MATLAB CODE 1.1:FFT
 T=1;                    % some epoch length
 fs=100;                 % a high enough sampling freq.
@@ -10,7 +12,7 @@ M=2^11;                 % take M ? N
 f=(0:M/2)*fs/M;         % gridded [0, fnyq]
 xhat=fft(x,M)/fs;       % = Ts*fft(x,M)
 xhat=xhat(1+(0:M/2));   % only need first half
-plot(f,abs(xhat));      % plot of |xˆ(f )|
+plot(f,abs(xhat));      % plot of |xË†(f )|
 % MATLAB CODE 1.2: FFT
 xa=abs(fft(x,M))*2/N; % amplitudes
 xa=xa(1+(0:M/2)); % first half
@@ -67,7 +69,7 @@ colorbar
 %% MATLAB CODE 1.6: Hilbert
 t=0:.1:100;
 x=t.^2.*(50-t).*exp(-t/8).*cos(t);
-z=hilbert(x); % z = x + ix˜
+z=hilbert(x); % z = x + ixËœ
 A=abs(z); % amplitude
 phi=phase(z); % phase
 plot(t,x,t,A);
