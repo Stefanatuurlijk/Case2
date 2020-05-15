@@ -1,5 +1,5 @@
 %% BLABLABALALBALBLBJADJFOEWIENDOFLNDS
-
+%% WHOEEEEE
 %% MATLAB CODE 1.1:FFT
 T=1;                    % some epoch length
 fs=100;                 % a high enough sampling freq.
@@ -38,6 +38,7 @@ pows=sum(S)*(fm(2)-fm(1)) % power via periodogram
 % xlabel('frequency (Hz)')
 % ylabel('unit [x]')
 % powp=sum(P)*(f(2)-f(1)) % same power again
+
 
 %% MATLAB CODE 1.4: Welch
 fs=100; % sampling freq.
