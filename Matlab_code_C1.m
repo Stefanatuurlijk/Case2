@@ -1,5 +1,3 @@
-%% BLABLABALALBALBLBJADJFOEWIENDOFLNDS
-
 %% MATLAB CODE 1.1:FFT
 T=1;                    % some epoch length
 fs=100;                 % a high enough sampling freq.
